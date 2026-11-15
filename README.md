@@ -7,6 +7,7 @@ sur Ubuntu 22.04, pour le projet SMART-ICT S5.
 | --- | --- |
 | `05-installer-free5gc.sh` | Phase 5.4 : installe Free5GC avec les bonnes interfaces réseau et l'image MongoDB `bitnamilegacy` |
 | `06-corriger-mongodb.sh` | Corrige une installation existante bloquée sur `mongodb-0` en `ErrImagePull` |
+| `07-trouver-image-mongodb.sh` | Cherche une version MongoDB qui existe vraiment dans `bitnamilegacy` et l'applique à Free5GC |
 
 ## Utilisation dans la VM
 
