@@ -15,7 +15,8 @@ helm -n free5gc install free5gc-v1 towards5gs/free5gc \
   --set global.n6network.cidr=24 \
   --set global.n6network.gatewayIP=10.0.2.2 \
   --set free5gc-upf.upf.n6if.ipAddress=10.0.2.20 \
-  --set mongodb.image.repository=bitnamilegacy/mongodb
+  --set mongodb.image.repository=bitnamilegacy/mongodb \
+  --set mongodb.image.tag=4.4.13-debian-10-r52
 
 echo
 echo "Free5GC est en cours de déploiement. Suis le démarrage avec :"
